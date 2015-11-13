@@ -143,6 +143,14 @@ header{
 	height: auto;
 }
 
+.bann1 h1{
+	color: #F26522;
+	font-size: 28px;
+	float: right;
+	margin: 10px -20px 30px;
+	font-weight: 700;
+}
+
 /*
 **	Activities
 */
@@ -389,4 +397,13 @@ footer li a{
 .box-blue a{
 	color: aliceblue;
 	font-size: 17px;
+}
+
+/*
+****		COZUMEL PRIVATE ISLAND TOUR ------ **
+*/
+
+.your-day h3{
+	color: #F26522;
+	font-size: 22px;
 }
