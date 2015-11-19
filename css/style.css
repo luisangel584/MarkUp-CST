@@ -60,8 +60,8 @@ header{
 	margin-bottom: 0px;
 }
 
-.navbar ul li:hover,
-.navbar ul li:active{
+.navbar-2 ul li:hover,
+.navbar-2 ul li:active{
 	background: #0396DA;
 }
 
@@ -71,10 +71,10 @@ header{
 }
 
 #logo{
-	position: fixed;
+	display: block;
 	z-index: 1;
 	top: 0px;
-	left: 15%;
+	left: 0px;
 }
 
 @media screen and (max-width:991px){
@@ -118,6 +118,14 @@ header{
 .social-items > li{
 	width: 40px;
 	height: auto;
+}
+
+.social-safe-items{
+	position: absolute;
+	right: 400px;
+	top: -5px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .lang{
