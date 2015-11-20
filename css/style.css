@@ -37,12 +37,6 @@ body{
 	margin-top: 8em;
 }
 
-@media screen and (max-width: 991px){
-	body{
-		margin-top: 300px;
-	}
-}
-
 header{
 	font-size: 17px;
 	position: fixed;
@@ -60,14 +54,49 @@ header{
 	margin-bottom: 0px;
 }
 
+.nav-two ul li{
+	background: transparent url("../img/menu_top_divider.png") no-repeat scroll left 2px;
+}
+
+@media screen and (max-width: 768px){
+	.nav-two{
+		top: -43px;
+	}
+}
+
 .navbar-2 ul li:hover,
 .navbar-2 ul li:active{
+	background: #0396DA;
+	color: #000;
+}
+
+.menu-active{
+	color: wheat;
 	background: #0396DA;
 }
 
 .navbar-default{
 	border-color: rgba(240, 243, 255, 0);
 	background: rgba(240, 243, 255, 0);
+}
+
+@media screen and (max-width: 768px){
+	.nav-one ul li{
+		display: inline-block;
+		top: -5px;
+	}
+	
+	.nav-one .collapse{
+		display: block;
+	}
+	
+	.nav-one .navbar-collapse{
+		border-top: 0px;
+	}
+	
+	.nav-two .navbar-collapse{
+		background: #fff;
+	}
 }
 
 #logo{
@@ -77,10 +106,26 @@ header{
 	left: 0px;
 }
 
-@media screen and (max-width:991px){
+@media screen and (min-width: 993px) and (max-width:1200px){
 	#logo{
-		left: 0.5%;
-		width: 35%;
+		position: relative;
+		left: -150px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+	#logo{
+		position: relative;
+		width: 80%;
+		left: -135px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#logo{
+		position: relative;
+		width: 80%;
+		left: 0px;
 	}
 }
 
@@ -92,9 +137,33 @@ header{
 
 .visit-gallery img{
 	top: 3px;
-	left: 80px;
+	right: -100px;
 	position: absolute;
 	margin: 0 auto;
+	z-index: 1;
+	display: block;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	.visit-gallery img{
+		right: 40px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.visit-gallery img{
+		right: 110px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.visit-gallery img{
+		display: block;
+		right: 0px;
+		left: 0px;
+		top: -50px;
+		position: absolute;
+	}
 }
 
 .menu ul li{
@@ -135,6 +204,19 @@ header{
 
 .lang li{
 	padding: 15px 5px;
+}
+
+@media screen and (max-width: 768px){
+	#lang{
+		position: absolute;
+		display: block;
+		right: 10px;
+		top: 0px;
+	}
+	
+	#lang li a{
+		padding: 10px 5px;
+	}
 }
 
 .submenu{
@@ -338,7 +420,7 @@ footer{
 }
 
 .footer-back{
-	background: transparent url("../img/bg-footer.png") no-repeat scroll center top;
+	background: transparent url("../img/bg-footer.png") repeat scroll center top;
 }
 
 @media screen and (max-width: 991px){
