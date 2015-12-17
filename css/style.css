@@ -158,11 +158,7 @@ header{
 
 @media screen and (max-width: 768px){
 	.visit-gallery img{
-		display: block;
-		right: 0px;
-		left: 0px;
-		top: -50px;
-		position: absolute;
+		display: none;
 	}
 }
 
@@ -189,6 +185,20 @@ header{
 	height: auto;
 }
 
+@media screen and (max-width: 768px){
+	.social-items > li{
+		width: 30px;
+	}
+	.social-items img{
+		width: 30px;
+	}
+	
+	.social-safe-items img{
+		width: 30px;
+	}
+	
+}
+
 .social-safe-items{
 	position: absolute;
 	right: 400px;
@@ -206,6 +216,7 @@ header{
 	padding: 15px 5px;
 }
 
+
 @media screen and (max-width: 768px){
 	#lang{
 		position: absolute;
@@ -215,7 +226,8 @@ header{
 	}
 	
 	#lang li a{
-		padding: 10px 5px;
+		padding: 10px 2px;
+		font-size: 15px;
 	}
 }
 
@@ -516,5 +528,25 @@ footer li a{
 
 .your-day h3{
 	color: #F26522;
-	font-size: 22px;
+	font-size: 26px;
+	margin-bottom: 20px;
 }
+
+.your-day p{
+	font-size: 17px;
+	margin: 0px 0px 20px;
+}
+
+.your-day .oran{
+	color: #F26522;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.fluid-width-video-wrapper{
+	width: 100%;
+	position: relative;
+	padding: 0px;
+	padding-top: 63.2353%;
+}
+
