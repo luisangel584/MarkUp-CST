@@ -550,3 +550,31 @@ footer li a{
 	padding-top: 63.2353%;
 }
 
+.your-day p span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.your-day .prices p{
+    margin: 0px;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.your-day .prices span{
+    color: #1D70C2;
+    font-size: 20px;
+}
+
+.your-day .prices span.oran{
+    color: #F26522;
+    font-weight: bold;
+}
+
+.your-day .oran{
+    color: #F26522;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
