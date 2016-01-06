@@ -526,6 +526,22 @@ footer li a{
 ****		COZUMEL PRIVATE ISLAND TOUR ------ **
 */
 
+.cruiseShipButton a{
+    color: #fff;
+}
+#check_avail h2{
+    color: #F26522;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+#check_avail label{
+    color: #626262;
+    display: block;
+    font-size: 15px;
+}
+
 .your-day h3{
 	color: #F26522;
 	font-size: 26px;
@@ -535,6 +551,7 @@ footer li a{
 .your-day p{
 	font-size: 17px;
 	margin: 0px 0px 20px;
+    text-align: justify;
 }
 
 .your-day .oran{
